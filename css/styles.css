@@ -471,6 +471,7 @@ body {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-list {
+  justify-content: center;
   flex-wrap: wrap;
   gap: 72px 16px;
   margin-top: 72px;
