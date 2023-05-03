@@ -431,7 +431,9 @@ body {
   gap: 16px;
   margin-top: 16px;
 }
-
+.workers-info > .third-section-svg-list {
+  gap: 24px;
+}
 .foter-social-text {
   font-weight: 500;
   font-size: 16px;
@@ -579,7 +581,6 @@ body {
   top: 50%;
   left: 50%;
   max-width: 408px;
-  height: 584px;
   background-color: white;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -978,7 +979,7 @@ body {
   margin-top: 48px;
   margin-bottom: 0px;
   padding: 0;
-  justify-content: space-between;
+  gap: 56px;
 }
 
 .social-icon {
@@ -1142,6 +1143,8 @@ body {
     border-color: #ffffff;
 
     width: 264px;
+  }
+  .footer-label {
     margin-right: 24px;
   }
   .footer-container {
@@ -1154,6 +1157,9 @@ body {
   }
 }
 @media screen and (min-width: 1158px) {
+  .project-img {
+    width: 360px;
+  }
   .sections {
     padding: 120px 0;
   }
@@ -1163,7 +1169,7 @@ body {
 
   .project-photos {
     flex-wrap: wrap;
-    gap: 40px 24px;
+    gap: 48px 24px;
   }
   .container {
     max-width: 1158px;
@@ -1236,7 +1242,15 @@ body {
   }
   .footer > .footer-container {
     width: 1158px;
-    justify-content: space-between;
+  }
+  .logo-div {
+    margin-right: 120px;
+  }
+  .foter-box {
+    margin-right: 80px;
+  }
+  .footer-container {
+    gap: 0;
   }
 }
 @media screen and (max-width: 1157px) {
@@ -1277,11 +1291,15 @@ body {
   }
 }
 @media screen and (max-width: 427px) {
+  .chekbox-label-span {
+    top: 4px;
+    left: 8px;
+  }
   .modale {
     width: 300px;
   }
-  .submit-div {
-    margin: 0;
+  .social-icons-list {
+    gap: 30px;
   }
 }
 @media screen and (min-width: 428px) {
